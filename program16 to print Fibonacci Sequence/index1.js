@@ -1,18 +1,14 @@
 // program to print the Fibonacci Sequence
 
-const numFib = +prompt("Enter a value")
 
-if(numFib === 1){
-console.log([0])
+const number = +prompt('Enter the number of terms: ');
+let n1 = 0, n2 = 1, nextTerm;
 
-}else if(numFib===2){
-    console.log([0,1])
-}else{
- let output = [0,1];
- for(let i=2;i < numFib;i++){
-     output.push(output[output.length-2] + output[output.length-1]);
- }
+console.log('Fibonacci Series:');
 
-console.log(output);
+for (let i = 1; i <= number; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
 }
-

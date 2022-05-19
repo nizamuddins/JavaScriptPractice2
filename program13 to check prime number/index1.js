@@ -13,7 +13,7 @@ if(isPrime%i===0){
 if(isPrime===1){
     console.log("1 is neither Prime nor Composite")
 }
-else if(isPrime>1 && isPrime1===0){
+else if(isPrime1===0){
     console.log("The number is prime")
 }else{
     console.log("The number is not prime")

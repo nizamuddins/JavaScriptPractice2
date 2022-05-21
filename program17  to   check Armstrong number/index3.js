@@ -17,7 +17,7 @@ let numofDigits = String(i).length;
 
     }
 
-    if (sum == i) {
+    if (sum === i) {
 
         console.log(i);
     }

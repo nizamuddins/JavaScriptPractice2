@@ -1,4 +1,4 @@
-// program to find HCF or GCD by for loop
+// program to find LCM by HCF
 
 const num1 = +prompt("Enter the first number");
 const num2 = +prompt("Enter the Second number")
@@ -13,4 +13,6 @@ for (let i = 0; i <= num1 && i <= num2; i++) {
 
 }
 
-console.log(`HCF of ${num1},${num2} is ${hcf}`);
+const lcm = (num1 * num2) / hcf;
+
+console.log(`LCM of ${num1},${num2} is ${lcm}`);

@@ -1,21 +1,16 @@
 // program to convert decimal to binary
-function convertToBinary(x) {
-    let bin = 0;
-    let rem,
-        i = 1,
-        step = 1;
+function facrotial(x) {
 
-    while (x != 0) {
-        rem = x % 2;
+if(x>1){
+    return  x * facrotial(x-1);
+}else{
+    return x;
+}
 
-        x = parseInt(x / 2);
-        bin = bin + rem * i;
-        i = i * 10;
-    }
-    console.log(`Binary: ${bin}`);
+
 }
 
 // take input
 let number = prompt('Enter a decimal number: ');
-
-convertToBinary(number);
+const factorialNum = facrotial(number);
+console.log(factorialNum)

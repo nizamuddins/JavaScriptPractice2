@@ -1,7 +1,7 @@
 const string = prompt("Enter a  string");
 function myFunc(str) {
-    if (/^S/i.test(str) && /G$/i.test(str)) {
-        console.log("THe string startswith S and ends with G ")
+    if (/S/i.test(str) && /G$/i.test(str)) {
+        console.log("THe string starts with S and ends with G ")
     } else if (/^S/i.test(str)) {
         console.log("The string start with S but does not ends with G")
     } else if (/^G/i.test(str)) {

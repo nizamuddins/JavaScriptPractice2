@@ -2,7 +2,7 @@
 
 const string = 'Hellol Wolrd';
 
-const starts = /He/g.test(string)
+const starts = /He/gi.test(string)
 if(starts){
     console.log("The string starts with He")
 }else{

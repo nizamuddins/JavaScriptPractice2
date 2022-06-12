@@ -1,8 +1,8 @@
 // By .test() method
 
-const string = 'Hellol Wolrd';
-
-const starts = /He/gi.test(string)
+const string = 'Hellol World';
+const string2 = /He/g;
+const starts = string2.test(string)
 if(starts){
     console.log("The string starts with He")
 }else{

@@ -1,11 +1,11 @@
 // By concatenation
-// const number = 250000.00
+// const number = 2,50000.00
 
 // const currency = '$' + number.toFixed(2);
 
 // console.log(currency)
 
-// program to format numbers as currency string
+// By toLocaleString() method
 
 const result =  (2500).toLocaleString('en-US', {
     style: 'currency',

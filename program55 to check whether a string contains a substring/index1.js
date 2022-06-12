@@ -18,7 +18,8 @@ if(string.includes(strCheck)){
 const string1 = prompt("Enter a string");
 const strCheck1 = prompt("Enter a string to be checked");
 
-if(string1.lastIndexOf(strCheck1) != -1){
+const result  = string1.lastIndexOf(strCheck1,0);
+if(result !== -1){
     console.log("The string contains "+ strCheck1);
 
 }else{

@@ -1,6 +1,6 @@
 // By RegExp
 
-const string = 'javascript learning';
+const string = 'jAvascript learning';
 
 const RegExp = /a/gi;
 

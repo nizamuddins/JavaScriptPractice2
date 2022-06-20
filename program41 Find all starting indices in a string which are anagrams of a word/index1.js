@@ -14,4 +14,4 @@ const getIndexOfAnagramIn = (s, w) => {
     return result;
 }
 
-console.log(getIndexOfAnagramIn('abab', 'ab'));
+console.log(getIndexOfAnagramIn('ababa', 'ab'));

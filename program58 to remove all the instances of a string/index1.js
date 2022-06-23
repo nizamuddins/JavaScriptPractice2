@@ -12,7 +12,7 @@ console.log(replace)
 
 
 
-const string1 = ' learning javascript programs';
+const string1 = 'learning javascript programs';
 
 const split = string1.split('a')
 const join = split.join('A')

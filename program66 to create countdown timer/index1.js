@@ -1,4 +1,4 @@
-let countDownDate = new Date().getTime() + 24 * 60 * 60 * 1000;
+let countDownDate = new Date().getTime() + 24 * 60 * 60 *1000
 
 
 let id = setInterval(function () {

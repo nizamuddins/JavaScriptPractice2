@@ -6,48 +6,51 @@ const array = [
         age: 21
     }
 ]
+// function myFunc(arr) {
+    
 
-for (let i = array.length; i <= array.length && i > 0; --i) {
+    for (let i= array.length;i>0;--i) {
 
-    array.pop()
+        array.pop()
 
-}
+    }
+    // if(array != null){
+    //     myFunc(array)
+    // }
+
+
+//     return arr
+// }
+
 console.log(array)
-
 
 // by splice()
 
-const array2 = [3,6,8,2];
+const array2 = [3, 6, 8, 2];
 
 array2.splice(0);
 console.log(array2)
 
+// By fnction
 
+const array3 = [3, 6, 8, 2];
 
-// By fnction 
+function myFunc(arr) {
 
-const array3 = [3,6,8,2];
+    arr = []
 
-function myFunc(arr){
-
-
-arr = []
-
-return arr
+    return arr
 }
 
 console.log(myFunc(array3))
 
+const array4 = [3, 6, 8, 2];
 
+function myFunc(arr) {
 
-const array4 = [3,6,8,2];
+    arr.length = 0
 
-function myFunc(arr){
-
-
-arr.length = 0
-
-return arr;
+    return arr;
 }
 
 console.log(myFunc(array3))

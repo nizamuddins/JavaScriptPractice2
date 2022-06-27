@@ -16,7 +16,7 @@ array2.splice(0,0,3);
 console.log(array2);
 
 
-// By concat
+// By spread operator
 
 const array3 = [2,5,8,3];
 const array4 = [67,...array3];

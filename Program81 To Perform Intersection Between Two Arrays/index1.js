@@ -20,3 +20,16 @@ function myFunc1(arr1, arr2) {
 }
 const returnval = myFunc1(array1, array2);
 console.log(returnval)
+
+
+// By filter()
+
+
+const arr1 = [3,1,7,9,4];
+
+const arr2 = [3,8,6,7,7,2,4];
+
+
+const arr3 = arr1.filter((a)=> arr2.lastIndexOf(a)!== -1);
+
+console.log(arr3)

@@ -60,3 +60,27 @@ function myFunc1(arr1) {
 
 myFunc1(array1)
 
+// By splice()
+
+const array3 = [6, 2, 7, 3,7,4,3,8]
+
+function myFunc2(arr) {
+
+    let arr3 = 0;
+    let arr4 = [...arr]
+    for (let i = 0; i < arr4.length; i++) {
+
+        const elements = arr.splice(i - i, 2);
+
+        arr3 = elements;
+        if (arr3.length === 0) {
+            break
+        }
+        console.log(arr3);
+
+        arr3 = 0;
+    }
+
+}
+
+myFunc2(array3)

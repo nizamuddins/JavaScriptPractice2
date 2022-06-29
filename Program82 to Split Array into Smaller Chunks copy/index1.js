@@ -62,7 +62,16 @@ myFunc1(array1)
 
 // By splice()
 
-const array3 = [6, 2, 7, 3,7,4,3,8]
+const array3 = [
+    6,
+    2,
+    7,
+    3,
+    7,
+    4,
+    3,
+    8
+]
 
 function myFunc2(arr) {
 

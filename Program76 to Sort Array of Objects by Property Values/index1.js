@@ -16,25 +16,10 @@ const arr = [
 arr.sort((a, b) =>a.age - b.age)
 console.log(arr)
 
-const array1 = [
-    {
-        a: 6
-    }, {
-        a: 6
-    }, {
-        a: 7
-    }, {
-        a: 9
-    }, {
-        a: 8
-    }, {
-        a: 8
-    }, {
-        a: 10
-    }, {
-        a: 10
-    }
+const array1 = [{ a: 6}, { a: 7},{ a: 6},{ a: 6}, { a: 7}, {a:7},{ a: 9}, { a: 8}, { a: 8}, { a: 10}, {a: 10}
 ]
+array1.sort((a, b) => a.a - b.a)
+
 
 let array = []
 for (let i = 0; i < array1.length - 1; i++) {

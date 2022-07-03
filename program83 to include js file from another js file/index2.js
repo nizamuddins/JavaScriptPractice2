@@ -1,4 +1,4 @@
-import {obj, myFunc1} from '/index1.js';
+import {obj, myFunc1} from './index1.js';
 
 console.log(obj);
 

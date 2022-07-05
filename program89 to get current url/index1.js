@@ -4,3 +4,5 @@ const url2 = document.URL;
 
 console.log(url1);
 console.log(url2)
+
+

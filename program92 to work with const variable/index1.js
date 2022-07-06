@@ -14,3 +14,5 @@ const arr = ['nizam','nayeem'];
 arr[1]= 'nomaan';
 
 console.log(arr);
+
+

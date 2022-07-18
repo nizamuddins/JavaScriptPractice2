@@ -11,7 +11,7 @@ const array2 = [
 ];
 function myFunc1(arr2) {
     let flag = [];
-    for (let i = arr2.length; i >= arr2.length; --i) {
+    for (let i = arr2.length; i >= arr2.length; --i ) {
         if (arr2.length != 0) {
             let val1 = arr2.shift();
             let val2 = arr2.shift();

@@ -18,8 +18,8 @@ if (descriminant > 0) {
 
 } else {
 
-    const real_prt = (-b / (2 * a)).toFixed(2);
-    const imag_prt = (Math.sqrt(-(descriminant)) / (2 * a)).toFixed(2);
+    const real_prt = -b / (2 * a);
+    const imag_prt = (Math.floor(Math.sqrt(-(descriminant))) / (2 * a)).toFixed(2);
 
     console.log(
         `Roots of quadratic equation is ${real_prt}+${imag_prt}i, ${real_prt}-${imag_prt}i`

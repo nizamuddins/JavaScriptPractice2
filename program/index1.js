@@ -20,8 +20,8 @@ function myFunc(element) {
                 const blue = Math.floor(Math.random() * 125);
                 const green = Math.floor(Math.random() * 125);
                 const random = `rgb(${red},${blue},${green})`;
-                const grand = document.querySelector('.' + element);
-                grand.style.backgroundColor = random;
+                const grand1 = document.querySelector('.' + element);
+                grand1.style.backgroundColor = random;
                 resolve("good");
             }, 200)
         } else {

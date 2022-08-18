@@ -23,4 +23,30 @@
 // console.log('Number is Zero') }else{     console.log('Number is Negative') }
 // const num = 53; if(num % 2===0){     console.log('Number is Even') }else{
 // console.log('Number is Odd') } const num =4; const value =
-// num%2==0?'Even':"Odd"; console.log(value)
+// num%2==0?'Even':"Odd"; console.log(value) const a =34; const b =23; const c
+// =234; const max = Math.max(a,b,c); console.log(max) const num = 14; let flag
+// = 0; for(let i= 2;i<num;i++){ if(num%i===0){     flag = 1;     break; } }
+// if(flag===0){     console.log('prime') }else{     console.log('Not Prime') }
+// const num = 100; for (let i = 2; i <= num; i++) {     let flag = 0;     for
+// (let j = 2; j < i; j++) {         if (i % j === 0) {             flag = 1;
+// break;         }     }     if (flag === 0) {         console.log(i)     } }
+// const fact =5; function myfunc(facto){ let factorial = 1; for(let i=
+// 1;i<=facto;i++){ factorial *= i; } return  factorial; }
+// console.log(myfunc(fact)) const num = 100; for(let i=1;i<=10;i++){ const
+// table = num * i; console.log(`${num}*${i} = ${table}`) } const num = 10; let
+// n1 = 0,     n2 = 1,     next; for (let i = 0; i < num; i++) {
+// console.log(n1);     next = n1 + n2;     n1 = n2;     n2 = next; } const num
+// = 100; if(num<0 || num ===0){ console.log('enter number greater then zero')
+// }else if(num ===1){     console.log('[0]'); }else if(num === 2){
+// console.log('[0,1]'); } else if(num>2){ let output = [0,1]     for(let i =
+// 2;i<num;i++){         var output1 = output.push(output[output.length-2] +
+// output[output.length-1]);     } console.log(output) } const num = 373; let
+// temp = num; let sum = 0; while (temp !== 0) {     let rem = temp % 10; sum +=
+// rem ** String(num).length;     temp = Math.floor(temp / 10); } if (num ===
+// sum) {     console.log('Armstrong number ') } else {     console.log("Not
+// Armstrong Number") } let a = 34; let b = 21; let operator = "*"; if(operator
+// == "+"){  console.log(a+b) }else if(operator == "-"){     console.log(a-b)
+// }else if(operator == "*"){     console.log(a*b) }else{     console.log(a/b) }
+
+
+

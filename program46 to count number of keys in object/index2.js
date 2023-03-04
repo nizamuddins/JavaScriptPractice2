@@ -1,4 +1,4 @@
-// By using spread operator
+// By using Object.keys()
 
 const obj1 = {
     name: "nizam",

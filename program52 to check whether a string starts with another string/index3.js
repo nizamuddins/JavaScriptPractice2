@@ -1,5 +1,4 @@
-// By .test() method
-
+// By lastIndexOf()
 const string = 'Hello Wolrd';
 // const index = 'He'
 const starts = string.lastIndexOf('He', 0) === 0;

@@ -12,11 +12,7 @@ this.about = function (){
 this.scores = {
     marks:100,
     grade:"pass",
-}
-
-
-
-}
+}}
 
 
 const user1 = new myfunc("nizam",21,"Liet");

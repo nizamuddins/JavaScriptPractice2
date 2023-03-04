@@ -6,13 +6,14 @@ function fibonacci(num) {
         return num;
     } else {
 
-        return fibonacci(num - 1) + fibonacci(num - 2)
+        return fibonacci(num - 1) + fibonacci(num - 2);
 
     }
 
 }
 
-const number = +prompt("Enter a positive integer");
+// const number = +prompt("Enter a positive integer");
+let number = 2
 
 if (number <= 0) {
 

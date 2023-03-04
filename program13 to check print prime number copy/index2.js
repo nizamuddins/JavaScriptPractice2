@@ -1,6 +1,6 @@
 // program to print prime numbers between the two numbers
 
-const primeNumber = +prompt('Enter higher number: ');
+const primeNumber = 10;
 
 for (let i = 2; i <= primeNumber; i++) {
 

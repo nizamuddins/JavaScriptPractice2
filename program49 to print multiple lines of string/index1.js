@@ -1,6 +1,5 @@
 // by using +
 
-
 const string = "I am Md Nizam\n" + "Iam from liet";
 console.log(string)
 

@@ -1,14 +1,13 @@
-// program to find factors of a number
+// program to find sum of a number
 
 const number = +prompt("Enter the number");
 
-function MyFunc(sum) {
+function MyFunc(sums) {
 
-    if (sum > 0) {
-        return sum + MyFunc(sum - 1);
+    if (sums > 0) {
+        return sums + MyFunc(sum - 1);
     } else {
-
-        return sum
+        return sums
     }
 
 }

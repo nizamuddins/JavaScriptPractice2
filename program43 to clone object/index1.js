@@ -8,7 +8,7 @@ const obj1 = {
     about(){
         return this.name;
     }
-    }
+}
     
-    const obj2 =  Object.assign({},obj1)
-    console.log(obj2)
+const obj2 =  Object.assign({},obj1)
+console.log(obj2)
